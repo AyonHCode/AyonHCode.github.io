@@ -1,0 +1,18 @@
+#first-paragraph {
+    color: #290cff;   
+    background-color:skyblue
+}
+
+#second-paragraph {
+    color:palegoldenrod;
+    background-color:rgb(192, 161, 88)
+}
+
+#bold-paragraph{
+    font-weight: bold;
+    font-size: 24pt; 
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
