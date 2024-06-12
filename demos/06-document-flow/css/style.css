@@ -1,0 +1,11 @@
+.narrow-blue {
+    width: 200px;
+    display: inline-block;
+    background-color: blue;
+}
+
+.narrow-aqua {
+    width: 200px;
+    display: inline-block;
+    background-color: aqua;
+}
