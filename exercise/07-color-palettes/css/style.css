@@ -1,45 +1,48 @@
-#palette-2-heading {
+
+
+
+#palette-2 {
     background-color: #DB9E51;
     padding: 24px;
 }
 
-#palette-3-heading {
+#palette-3 {
     background-color: #DED1B4;
     padding: 24px;
 }
 
-#palette-4-heading {
+#palette-4 {
     background-color: #DB8048;
     padding: 24px;
 }
 
-#palette-2-heading,
-#palette-3-heading,
-#palette-4-heading {
+#palette-2,
+#palette-3,
+#palette-4{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 
 
-#palette-7-heading {
+#palette-7 {
     background-color: #FFE1A8;
     padding: 24px;
 }
 
-#palette-6-heading {
+#palette-6 {
     background-color: #c9cba3;
     padding: 24px;
 }
 
-#palette-8-heading {
+#palette-8 {
     background-color:#E26D5C;
     padding: 24px;
 }
 
-#palette-6-heading,
-#palette-7-heading,
-#palette-8-heading  {
+#palette-6,
+#palette-7,
+#palette-8  {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -48,24 +51,24 @@
 
 
 
-#palette-9-heading {
+#palette-9 {
     background-color: #7D6F86;
     padding: 24px;
 }
 
-#palette-10-heading {
+#palette-10 {
     background-color: #585191;
     padding: 24px;
 }
 
-#palette-11-heading {
+#palette-11 {
     background-color: #4F359B;
     padding: 24px;
 }
 
-#palette-9-heading,
-#palette-10-heading,
-#palette-11-heading{
+#palette-9,
+#palette-10,
+#palette-11{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
 }
