@@ -8,7 +8,7 @@
 
 #header {
     background-color: lightblue;
-    padding: 15px;
+    padding: 0px;
 }
     
 
@@ -24,19 +24,20 @@
 
     padding: 15px;
     grid-area: c1;
+    padding-top:15px;
 }
 
 #column-3 {
-    background-color: aqua;
+   
     grid-area: c2;
     padding: 15px;
+    margin-left: 10px;
 }
    
 
 
 #column-4 {
-
-    padding: 100px;
     grid-area: c3;
+    margin-top: 8px;
 }
 
