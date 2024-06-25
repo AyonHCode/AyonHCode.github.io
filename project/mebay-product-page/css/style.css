@@ -1,3 +1,42 @@
 #layout {
-    display: flex; 
+    display: grid; 
+    grid-template-columns: 1fr 4fr 9fr;
+    grid-template-areas: 
+    "h h h"
+    "c1 c2 c3";
 }
+
+#header {
+    background-color: lightblue;
+    padding: 15px;
+}
+    
+
+#column-1 {
+ 
+    grid-area: h;
+    padding: 15px;
+    text-align: center
+   
+}
+
+#column-2 {
+
+    padding: 15px;
+    grid-area: c1;
+}
+
+#column-3 {
+    background-color: aqua;
+    grid-area: c2;
+    padding: 15px;
+}
+   
+
+
+#column-4 {
+
+    padding: 100px;
+    grid-area: c3;
+}
+
