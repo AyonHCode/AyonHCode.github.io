@@ -31,6 +31,7 @@ body {
     border-radius: 50px;
     margin-top: 50px;
     justify-content: space-between;
+
     
 }
 
@@ -54,4 +55,6 @@ body {
 
 #animagram-header {
     justify-content: space-between;
+    text-align: center;
 }
+
