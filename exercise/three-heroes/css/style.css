@@ -22,5 +22,20 @@ body {
     padding-left: 10vw;
 }
 
+#hero-3 {
+    background-image: url(../images/over-forset-sky.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center center;  
+    display: flex;
+    justify-content: flex-start;
+    align-items:center
+}
+
+#hero-3 h2 {
+    font-size: 15vw;
+    padding-left: 10vw;
+}
+
 
 
