@@ -13,27 +13,36 @@ body {
 
 #hero-3 {
     background-image: url("../images/luca-bravo-ESkw2ayO2As-unsplash.jpg");
-    height: 100vh;
+    height: 60vh;
     background-size: cover;
     background-position: center;
-    position: relative;
+    position: right;
 }
+
+#hero-3 img {
+    display: flex;
+    align-items: baseline;
+}
+
+
 
 #hero-3 .hero-content {
     position: absolute;
-    top: 10%;
-    left: 15%;
+    top: 3%;
+    left: 10%;
 }
 
 #hero-3 h2 {
     font-size: 8vw;
     margin-bottom: 5vh;
     margin-right: 5vw;
+    color: white;
 }
 
 #hero-3 h4 {
     font-size: 3vw;
     margin: 0px 5vw 0px 0px;
+    color: g;
 }
 
 #hero-3 a {
@@ -61,7 +70,6 @@ body {
 #layout {
     max-width: 800px;
     margin: 48px auto;
-    text-align: center;
 }
 
 #layout img {
@@ -70,8 +78,7 @@ body {
 }
 
 .horizontal-masonry-gallery {
-    border: 10px dashed black;
-    margin: 24px 0px;
+    border: 50px dashed black;
+    margin: 15px 0px;
     background-color: grey;
 }
-
