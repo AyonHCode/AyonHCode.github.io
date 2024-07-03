@@ -65,7 +65,13 @@ body {
 }
 
 #layout img {
-    width: 250px;
-    border-bottom: ;
+    width: 200px;
+    
+}
+
+.horizontal-masonry-gallery {
+    border: 10px dashed black;
+    margin: 24px 0px;
+    background-color: grey;
 }
 
