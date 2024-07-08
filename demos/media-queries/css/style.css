@@ -1,0 +1,22 @@
+
+/* tablet breakpiont */
+@media screen and 
+    (max-width: 768px) and (min-width: 481px) {
+        body{
+            background-color: skyblue;
+        }
+    }
+
+
+
+
+
+
+/* Mobile BreakPoint */
+
+@media screen and (max-width: 480px) {
+    body{
+        background-color: firebrick;
+    }
+}
+
