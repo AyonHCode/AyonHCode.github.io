@@ -154,40 +154,8 @@ body {
     margin: 5vh 2vw 10vh;
 }
 
-#hero-5 {
-    background-image: url("../images/Ellison2.jpg");
-   height: 80vh;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1000px;
-    margin: 48px auto;
-}
-
-#hero-5 .hero-content {
-    text-align: center;
-    color: white;
-    padding-top: 20vh;
-
-}
-
-#hero-5 h2 {
-    font-size: 8vw;
-    margin-bottom: 5vh;
-}
-
-#hero-5 h4 {
-    font-size: 3vw;
-    margin: 0px;
-}
-
-#hero-5 a {
-    font-size: 1.5vw;
-    display: inline-block;
-    /* background-color: white; */
-    color: #333333;
-    text-decoration: none;
-    padding: 24px;
-    margin: 5vh 2vw 10vh;
+#img-5 .img-content{
+    display: grid;
+    grid-template-columns: 1fr 1000px 1fr;
+    grid-template-areas: ". content .";
 }
