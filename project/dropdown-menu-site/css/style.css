@@ -6,6 +6,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(234, 177, 106);
 }
 
 
@@ -89,7 +90,7 @@ body {
 }
 
 .dropdown-menu a {
-    background-color: darkslateblue;
+    background-color: rgb(244, 187, 65);
     width: 100%;
     min-width: 200px;
 }
