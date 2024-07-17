@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    /* preferred copy font goes here */
+    font-family: sans-serif; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.center-column {
+    
+
+    /* Step 1 */
+    width: 50%; 
+    min-width: 800px;
+
+    /* Step 2 */
+    margin: 0px auto; 
+    text-align: center;
+    
+}
+
+#center-column h2 {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto
+    ,Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+
+#side-by-side {
+    display: grid;
+    grid-template-areas:
+    "area-1 area-2 area-3";
+
+}
+
+#side-by-side img {
+    max-width: 50vh;
+}
+
+.center-column a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(134, 88, 226);
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid rgb(134, 88, 226);
+    transition:
+        background-color .5s,
+        color .5s;
+}
+
+.center-column a:hover {
+    background-color: transparent;
+    color: green;
+}
+
