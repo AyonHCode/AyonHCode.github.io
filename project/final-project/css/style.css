@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
 * {
     box-sizing: border-box;
 }
@@ -21,7 +48,7 @@ body {
 }
 
 #navbar a:hover {
-    background: linear-gradient(to top, #109cb8, #0e5b96);
+    background-color: #603813;
 }
 
 #navbar #logo img {
@@ -46,68 +73,31 @@ body {
         opacity 0.25s,
         visibility 0.25s;
 
-    /*
-        If your dropdown menu seems to be placed
-        behind content on your page, you may need
-        to include a z-index, which pull it 
-        closer to you as a viewer.
-    */
+   
     z-index: 10;
 }
 
-/*
-    This selector targets dropdown-containers
-    that are the last child of their parent,
-    and looks inside of them for a dropdown-menu.
 
-    If found, we target it and anchor it
-    to the right of its parent container
-*/
 .dropdown-container:last-child .dropdown-menu {
     right: 0px;
 }
 
-/*
-    This is the selector responsible for
-    revealing the dropdown menu.
 
-    Note that the :hover pseudo-class is 
-    attached to the CONTAINER, not the MENU.
-
-    We can't hover over the menu when it's
-    hidden; we only want it to display when
-    the trigger link in the container is 
-    hovered over.
-*/
 .dropdown-container:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
 }
 
 .dropdown-menu a {
-    background-color: darkslateblue;
+    background-color: #A67C52;
     width: 100%;
     min-width: 200px;
 }
 
-/*
-    We need to be a bit more specific with
-    our selectors in order to override the
-    anchor hover state we declared earlier.
 
-    To do so, we need to include both
-    #navbar and .dropdown-menu.
 
-    Also note, using background-color
-    won't work, because in our original
-    anchor hover, we used the background
-    property to set a linear-gradient().
-
-    So, to override it, we need to use
-    the same shorthand background property.
-*/
 #navbar .dropdown-menu a:hover {
-    background: slateblue;
+    background: #006837;
 }
 
  /* the hero content */
@@ -124,10 +114,15 @@ body {
 #hero-1 h1 {
     font-size: 15vw;
     padding-left: 10vw;
+    color:#ffffff;
+    font-weight: 50px;
+    font-size: 100px;
+    
+
 }
 
 .spacer {
-    height: 00vh;
+    height: 100vh;
 }
 
 .single-column {
@@ -162,6 +157,7 @@ body {
     display: flex;
     align-items: center;
     margin: 48px 0px;
+    border: 5px solid #006837;
 }
 
 /*
@@ -208,16 +204,6 @@ body {
 }
 
 
-.center-column {
-    background-color: lightblue;
-
-    /* Step 1 */
-    width: 50%; 
-    min-width: 100vh;
-
-    /* Step 2 */
-    margin: 0px auto; 
-}
 
 /* Food cards */
 
@@ -233,16 +219,11 @@ body {
 
 .card {
     width: 350px;
-    border: 2px solid #ffe4da;
+    border: 2px solid #006837;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: -4px 4px 12px #ceaaaa;
-    background: linear-gradient(
-        -50deg, 
-        #ffdbdb, 
-        #fff7f7, 
-        #ffc9c9
-    );
+    box-shadow: -4px 4px 12px #c4b3a4;
+    background-color: #A67C52;
     display: flex;
     flex-direction: column;
 }
@@ -269,12 +250,12 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    background-color: lightcoral;
+    background-color: #A67C52;
     display: inline-block;
     width: 100%;
     padding: 10px;
     text-align: center;
-    border: 3px solid lightcoral;
+    border: 3px solid #603813;
     transition:
         background-color .5s,
         color .5s;
@@ -282,5 +263,5 @@ body {
 
 .card a:hover {
     background-color: transparent;
-    color: lightcoral;
+    color: #006837;
 }
